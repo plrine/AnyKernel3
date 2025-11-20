@@ -10,9 +10,9 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=lancelot
-device.name2=galahad
-device.name3=shiva
+device.name1=surya
+device.name2=karna
+device.name3=
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
@@ -27,7 +27,7 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/by-name/boot;
+BLOCK=/dev/block/bootdevice/by-name/boot;
 IS_SLOT_DEVICE=0;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
