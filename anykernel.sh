@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=kanjut
+kernel.string=POCO X3 (surya) 4.19 Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
